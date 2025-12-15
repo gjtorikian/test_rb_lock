@@ -1,0 +1,16 @@
+name: Lint
+
+on:
+  pull_request:
+    paths:
+      - "**/*.rb"
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lint Ruby files
+        uses: gjtorikian/actions/lint/ruby@main
