@@ -10,4 +10,7 @@ permissions:
 
 jobs:
   lint:
-    uses: gjtorikian/actions/lint/ruby@main
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Ruby linting
+        uses: gjtorikian/actions/lint/ruby@main
