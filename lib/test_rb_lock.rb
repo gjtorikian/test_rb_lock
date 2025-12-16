@@ -4,5 +4,4 @@ require_relative "test_rb_lock/version"
 
 module TestRbLock
   class Error < StandardError; end
-  # Your code goes here...
 end
