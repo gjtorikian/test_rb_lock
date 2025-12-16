@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["Garen J. Torikian"]
   spec.email = ["gjtorikian@users.noreply.github.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
+  spec.summary = "A Ruby gem for testing Ruby lock files"
+  spec.description = "yes"
   spec.homepage = "https://github.com/gjtorikian/test_rb_lock"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.2.0"
