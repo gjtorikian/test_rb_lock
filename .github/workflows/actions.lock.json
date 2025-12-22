@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2025-12-22T20:16:41.169Z",
+  "generated": "2025-12-22T20:22:01.808Z",
   "actions": {
     "actions/checkout": [
       {
@@ -27,8 +27,8 @@
     "gjtorikian/actions/setup-languages/bun": [
       {
         "version": "main",
-        "sha": "0238eea3f49e67a43cbbe0a11712fda936d8e714",
-        "integrity": "sha256-f71bb7f27337b348054f25ce8004146d88c42178cb8454d7dcbbaed3e4b9a573",
+        "sha": "4fbef7267e6b5c629a70973139f745ece677ce1d",
+        "integrity": "sha256-ca15bce5fa4c23cd942ee77bb7c0aae53266da26d282fcdda80eb0e295695e1e",
         "dependencies": [
           {
             "ref": "oven-sh/setup-bun@v2",
@@ -41,8 +41,8 @@
     "gjtorikian/actions/.github/workflows/bun_test.yml": [
       {
         "version": "main",
-        "sha": "0238eea3f49e67a43cbbe0a11712fda936d8e714",
-        "integrity": "sha256-f71bb7f27337b348054f25ce8004146d88c42178cb8454d7dcbbaed3e4b9a573",
+        "sha": "4fbef7267e6b5c629a70973139f745ece677ce1d",
+        "integrity": "sha256-ca15bce5fa4c23cd942ee77bb7c0aae53266da26d282fcdda80eb0e295695e1e",
         "dependencies": [
           {
             "ref": "actions/checkout@v5",
@@ -51,8 +51,8 @@
           },
           {
             "ref": "gjtorikian/actions/setup-languages/bun@main",
-            "sha": "0238eea3f49e67a43cbbe0a11712fda936d8e714",
-            "integrity": "sha256-f71bb7f27337b348054f25ce8004146d88c42178cb8454d7dcbbaed3e4b9a573"
+            "sha": "4fbef7267e6b5c629a70973139f745ece677ce1d",
+            "integrity": "sha256-ca15bce5fa4c23cd942ee77bb7c0aae53266da26d282fcdda80eb0e295695e1e"
           }
         ]
       }
@@ -60,8 +60,8 @@
     "gjtorikian/actions/lint/ruby": [
       {
         "version": "main",
-        "sha": "0238eea3f49e67a43cbbe0a11712fda936d8e714",
-        "integrity": "sha256-f71bb7f27337b348054f25ce8004146d88c42178cb8454d7dcbbaed3e4b9a573",
+        "sha": "4fbef7267e6b5c629a70973139f745ece677ce1d",
+        "integrity": "sha256-ca15bce5fa4c23cd942ee77bb7c0aae53266da26d282fcdda80eb0e295695e1e",
         "dependencies": []
       }
     ],
