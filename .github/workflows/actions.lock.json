@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "generated": "2025-12-22T20:16:41.169Z",
+  "actions": {
+    "actions/checkout": [
+      {
+        "version": "v5",
+        "sha": "93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+        "integrity": "sha256-9a3223b64964bfd98c02cae27ad016d007f0c228b0274ac471963410ca90aa97",
+        "dependencies": []
+      }
+    ],
+    "oven-sh/setup-bun": [
+      {
+        "version": "v2",
+        "sha": "735343b667d3e6f658f44d0eca948eb6282f2b76",
+        "integrity": "sha256-476f44de816b487b0b73224d623d1e7a788fa2d183a45647f836302486afe716",
+        "dependencies": []
+      },
+      {
+        "version": "v1",
+        "sha": "f4d14e03ff726c06358e5557344e1da148b56cf7",
+        "integrity": "sha256-31c0856b80fbf242a0df957a23c8eb1294760ceb6ad4c59c0251d926bc2bd32d",
+        "dependencies": []
+      }
+    ],
+    "gjtorikian/actions/setup-languages/bun": [
+      {
+        "version": "main",
+        "sha": "0238eea3f49e67a43cbbe0a11712fda936d8e714",
+        "integrity": "sha256-f71bb7f27337b348054f25ce8004146d88c42178cb8454d7dcbbaed3e4b9a573",
+        "dependencies": [
+          {
+            "ref": "oven-sh/setup-bun@v2",
+            "sha": "735343b667d3e6f658f44d0eca948eb6282f2b76",
+            "integrity": "sha256-476f44de816b487b0b73224d623d1e7a788fa2d183a45647f836302486afe716"
+          }
+        ]
+      }
+    ],
+    "gjtorikian/actions/.github/workflows/bun_test.yml": [
+      {
+        "version": "main",
+        "sha": "0238eea3f49e67a43cbbe0a11712fda936d8e714",
+        "integrity": "sha256-f71bb7f27337b348054f25ce8004146d88c42178cb8454d7dcbbaed3e4b9a573",
+        "dependencies": [
+          {
+            "ref": "actions/checkout@v5",
+            "sha": "93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+            "integrity": "sha256-9a3223b64964bfd98c02cae27ad016d007f0c228b0274ac471963410ca90aa97"
+          },
+          {
+            "ref": "gjtorikian/actions/setup-languages/bun@main",
+            "sha": "0238eea3f49e67a43cbbe0a11712fda936d8e714",
+            "integrity": "sha256-f71bb7f27337b348054f25ce8004146d88c42178cb8454d7dcbbaed3e4b9a573"
+          }
+        ]
+      }
+    ],
+    "gjtorikian/actions/lint/ruby": [
+      {
+        "version": "main",
+        "sha": "0238eea3f49e67a43cbbe0a11712fda936d8e714",
+        "integrity": "sha256-f71bb7f27337b348054f25ce8004146d88c42178cb8454d7dcbbaed3e4b9a573",
+        "dependencies": []
+      }
+    ],
+    "ruby/setup-ruby": [
+      {
+        "version": "v1",
+        "sha": "d354de180d0c9e813cfddfcbdc079945d4be589b",
+        "integrity": "sha256-ca16338cec1dfa53431bf0dc4049627fe1b41db2e05245ae00af895c16a9d234",
+        "dependencies": []
+      }
+    ],
+    "actions/cache/restore": [
+      {
+        "version": "v4",
+        "sha": "0057852bfaa89a56745cba8c7296529d2fc39830",
+        "integrity": "sha256-8af92cb85cf9beac2d2d55b478cdf25decdfac52e1995758f4fc6468c0ef4815",
+        "dependencies": []
+      }
+    ],
+    "oxidize-rb/actions/cargo-binstall": [
+      {
+        "version": "v1",
+        "sha": "e5f9a49a7812a078584072f6e3f657ad247c8771",
+        "integrity": "sha256-c044d8e5e3939e6d228a23cb1dab408c74153d1946f3d8382416b1f860a97091",
+        "dependencies": []
+      }
+    ],
+    "oxidize-rb/actions/post-run": [
+      {
+        "version": "v1",
+        "sha": "e5f9a49a7812a078584072f6e3f657ad247c8771",
+        "integrity": "sha256-c044d8e5e3939e6d228a23cb1dab408c74153d1946f3d8382416b1f860a97091",
+        "dependencies": []
+      }
+    ],
+    "actions/cache/save": [
+      {
+        "version": "v4",
+        "sha": "0057852bfaa89a56745cba8c7296529d2fc39830",
+        "integrity": "sha256-8af92cb85cf9beac2d2d55b478cdf25decdfac52e1995758f4fc6468c0ef4815",
+        "dependencies": []
+      }
+    ],
+    "oxidize-rb/actions/cross-gem": [
+      {
+        "version": "main",
+        "sha": "6af66d8dd30d219b8d8d4072bd6e49b4f6d37245",
+        "integrity": "sha256-ce867084e3dabcd2187b98ff8840bfebf763206657a438926918cf4aa8bd39e3",
+        "dependencies": [
+          {
+            "ref": "actions/cache/restore@v4",
+            "sha": "0057852bfaa89a56745cba8c7296529d2fc39830",
+            "integrity": "sha256-8af92cb85cf9beac2d2d55b478cdf25decdfac52e1995758f4fc6468c0ef4815"
+          },
+          {
+            "ref": "oxidize-rb/actions/cargo-binstall@v1",
+            "sha": "e5f9a49a7812a078584072f6e3f657ad247c8771",
+            "integrity": "sha256-c044d8e5e3939e6d228a23cb1dab408c74153d1946f3d8382416b1f860a97091"
+          },
+          {
+            "ref": "oxidize-rb/actions/post-run@v1",
+            "sha": "e5f9a49a7812a078584072f6e3f657ad247c8771",
+            "integrity": "sha256-c044d8e5e3939e6d228a23cb1dab408c74153d1946f3d8382416b1f860a97091"
+          },
+          {
+            "ref": "actions/cache/save@v4",
+            "sha": "0057852bfaa89a56745cba8c7296529d2fc39830",
+            "integrity": "sha256-8af92cb85cf9beac2d2d55b478cdf25decdfac52e1995758f4fc6468c0ef4815"
+          }
+        ]
+      }
+    ],
+    "oxidize-rb/actions/test-gem-build": [
+      {
+        "version": "main",
+        "sha": "6af66d8dd30d219b8d8d4072bd6e49b4f6d37245",
+        "integrity": "sha256-ce867084e3dabcd2187b98ff8840bfebf763206657a438926918cf4aa8bd39e3",
+        "dependencies": []
+      }
+    ],
+    "yettoapp/actions/.github/workflows/ruby_rust_test_build.yml": [
+      {
+        "version": "main",
+        "sha": "065eea0e3ebee960cb43a0ea70e54822fe1bf152",
+        "integrity": "sha256-2bc3e3f447a9f80afab02fb55e36e757aae92990869ee5056dcd660fe10f0ce1",
+        "dependencies": [
+          {
+            "ref": "actions/checkout@v5",
+            "sha": "93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+            "integrity": "sha256-9a3223b64964bfd98c02cae27ad016d007f0c228b0274ac471963410ca90aa97"
+          },
+          {
+            "ref": "ruby/setup-ruby@v1",
+            "sha": "d354de180d0c9e813cfddfcbdc079945d4be589b",
+            "integrity": "sha256-ca16338cec1dfa53431bf0dc4049627fe1b41db2e05245ae00af895c16a9d234"
+          },
+          {
+            "ref": "oxidize-rb/actions/cross-gem@main",
+            "sha": "6af66d8dd30d219b8d8d4072bd6e49b4f6d37245",
+            "integrity": "sha256-ce867084e3dabcd2187b98ff8840bfebf763206657a438926918cf4aa8bd39e3"
+          },
+          {
+            "ref": "oxidize-rb/actions/test-gem-build@main",
+            "sha": "6af66d8dd30d219b8d8d4072bd6e49b4f6d37245",
+            "integrity": "sha256-ce867084e3dabcd2187b98ff8840bfebf763206657a438926918cf4aa8bd39e3"
+          }
+        ]
+      }
+    ]
+  }
+}
