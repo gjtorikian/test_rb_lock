@@ -2,13 +2,16 @@ name: Verify Actions
 # change this to whichever events matter to you
 on: [pull_request]
 
+permissions:
+  pull-requests: write
+
 jobs:
   verify-actions:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
 
-      - uses: gjtorikian/gh-actions-lockfile@0b70bcbf9699cbf38b0c3c8093ef7ec0e459280d
+      - uses: gjtorikian/gh-actions-lockfile@d7e2226b143601ceb0017d51e0d159c7bab150f2
         with:
           mode: verify
 
