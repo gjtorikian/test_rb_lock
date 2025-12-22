@@ -1,0 +1,35 @@
+name: Verify Actions
+# change this to whichever events matter to you
+on: [pull_request]
+
+jobs:
+  verify-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: gjtorikian/gh-actions-lockfile@0b70bcbf9699cbf38b0c3c8093ef7ec0e459280d
+        with:
+          mode: verify
+
+  update-lockfile:
+    needs: verify-actions
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      # Gives the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.head_ref }}
+
+      - uses: gjtorikian/gh-actions-lockfile@0b70bcbf9699cbf38b0c3c8093ef7ec0e459280d
+        with:
+          mode: generate
+
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "Update actions lockfile"
+          file_pattern: ".github/workflows/actions.lock.json"
