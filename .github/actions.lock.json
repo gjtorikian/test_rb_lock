@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2025-12-23T05:25:01.330Z",
+  "generated": "2025-12-23T09:29:24.756Z",
   "actions": {
     "actions/checkout": [
       {
@@ -21,12 +21,6 @@
         "version": "v2",
         "sha": "735343b667d3e6f658f44d0eca948eb6282f2b76",
         "integrity": "sha256-476f44de816b487b0b73224d623d1e7a788fa2d183a45647f836302486afe716",
-        "dependencies": []
-      },
-      {
-        "version": "v1",
-        "sha": "f4d14e03ff726c06358e5557344e1da148b56cf7",
-        "integrity": "sha256-31c0856b80fbf242a0df957a23c8eb1294760ceb6ad4c59c0251d926bc2bd32d",
         "dependencies": []
       }
     ],
@@ -180,8 +174,8 @@
     "gjtorikian/gh-actions-lockfile": [
       {
         "version": "v1",
-        "sha": "1d8dbcabc9bc4bb321bf6d343c06b9f76defa529",
-        "integrity": "sha256-7d75cc1df53549affcca13ee71984051f4eab8a141c746b3cbfd18ed33cd8724",
+        "sha": "5de7fcb84f3027030f4323c01a99aae8cabaeef7",
+        "integrity": "sha256-5108df6df8607c40c901a572138d77ec97a2226a1de128c2973132b059f7a13e",
         "dependencies": []
       }
     ],
