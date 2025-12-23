@@ -30,7 +30,7 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - uses: gjtorikian/gh-actions-lockfile@0b70bcbf9699cbf38b0c3c8093ef7ec0e459280d
+      - uses: gjtorikian/gh-actions-lockfile@v1
         with:
           mode: generate
 
