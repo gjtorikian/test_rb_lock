@@ -37,4 +37,4 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Update actions lockfile"
-          file_pattern: ".github/workflows/actions.lock.json"
+          file_pattern: ".github/actions.lock.json"
