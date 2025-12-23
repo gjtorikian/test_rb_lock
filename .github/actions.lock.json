@@ -1,8 +1,14 @@
 {
   "version": 1,
-  "generated": "2025-12-22T20:22:01.808Z",
+  "generated": "2025-12-23T05:25:01.330Z",
   "actions": {
     "actions/checkout": [
+      {
+        "version": "v6",
+        "sha": "8e8c483db84b4bee98b60c0593521ed34d9990e8",
+        "integrity": "sha256-d414ece895ebce08c818601c45ca8489806731838f8eed6356031b3d1877a7a1",
+        "dependencies": []
+      },
       {
         "version": "v5",
         "sha": "93cb6efe18208431cddfb8368fd83d5badbf9bfd",
@@ -27,8 +33,8 @@
     "gjtorikian/actions/setup-languages/bun": [
       {
         "version": "main",
-        "sha": "4fbef7267e6b5c629a70973139f745ece677ce1d",
-        "integrity": "sha256-ca15bce5fa4c23cd942ee77bb7c0aae53266da26d282fcdda80eb0e295695e1e",
+        "sha": "571adaa0bbbcb88dd9c29871dee46d5cc5e42024",
+        "integrity": "sha256-38c412d52bbae02a1a339ec81f02f161321afea629bc21cc5f46522b202f741b",
         "dependencies": [
           {
             "ref": "oven-sh/setup-bun@v2",
@@ -41,18 +47,18 @@
     "gjtorikian/actions/.github/workflows/bun_test.yml": [
       {
         "version": "main",
-        "sha": "4fbef7267e6b5c629a70973139f745ece677ce1d",
-        "integrity": "sha256-ca15bce5fa4c23cd942ee77bb7c0aae53266da26d282fcdda80eb0e295695e1e",
+        "sha": "571adaa0bbbcb88dd9c29871dee46d5cc5e42024",
+        "integrity": "sha256-38c412d52bbae02a1a339ec81f02f161321afea629bc21cc5f46522b202f741b",
         "dependencies": [
           {
-            "ref": "actions/checkout@v5",
-            "sha": "93cb6efe18208431cddfb8368fd83d5badbf9bfd",
-            "integrity": "sha256-9a3223b64964bfd98c02cae27ad016d007f0c228b0274ac471963410ca90aa97"
+            "ref": "actions/checkout@v6",
+            "sha": "8e8c483db84b4bee98b60c0593521ed34d9990e8",
+            "integrity": "sha256-d414ece895ebce08c818601c45ca8489806731838f8eed6356031b3d1877a7a1"
           },
           {
             "ref": "gjtorikian/actions/setup-languages/bun@main",
-            "sha": "4fbef7267e6b5c629a70973139f745ece677ce1d",
-            "integrity": "sha256-ca15bce5fa4c23cd942ee77bb7c0aae53266da26d282fcdda80eb0e295695e1e"
+            "sha": "571adaa0bbbcb88dd9c29871dee46d5cc5e42024",
+            "integrity": "sha256-38c412d52bbae02a1a339ec81f02f161321afea629bc21cc5f46522b202f741b"
           }
         ]
       }
@@ -60,8 +66,8 @@
     "gjtorikian/actions/lint/ruby": [
       {
         "version": "main",
-        "sha": "4fbef7267e6b5c629a70973139f745ece677ce1d",
-        "integrity": "sha256-ca15bce5fa4c23cd942ee77bb7c0aae53266da26d282fcdda80eb0e295695e1e",
+        "sha": "571adaa0bbbcb88dd9c29871dee46d5cc5e42024",
+        "integrity": "sha256-38c412d52bbae02a1a339ec81f02f161321afea629bc21cc5f46522b202f741b",
         "dependencies": []
       }
     ],
@@ -169,6 +175,22 @@
             "integrity": "sha256-ce867084e3dabcd2187b98ff8840bfebf763206657a438926918cf4aa8bd39e3"
           }
         ]
+      }
+    ],
+    "gjtorikian/gh-actions-lockfile": [
+      {
+        "version": "v1",
+        "sha": "1d8dbcabc9bc4bb321bf6d343c06b9f76defa529",
+        "integrity": "sha256-7d75cc1df53549affcca13ee71984051f4eab8a141c746b3cbfd18ed33cd8724",
+        "dependencies": []
+      }
+    ],
+    "stefanzweifel/git-auto-commit-action": [
+      {
+        "version": "v7",
+        "sha": "04702edda442b2e678b25b537cec683a1493fcb9",
+        "integrity": "sha256-fb727ccb3f59ccc9d4fc5e0de90e1238ad8b9ff2f48e4b100e47ed99c229c509",
+        "dependencies": []
       }
     ]
   }
